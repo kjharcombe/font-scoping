@@ -1,6 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage{graphicx}
-\title{Architectural Font \\ TeX Development Fund}
+\title{Project Proposal \\ TeX Development Fund}
 \author{Keiran Harcombe}
 \date{October 2022}
 \begin{document}
@@ -13,16 +13,16 @@ My aim with this project is to create an architectural style font.
 Utilising support from the scheme
 \pagebreak
 
-\section{Research for similar fonts}
+\section{Research for fonts with similar use cases}
     \begin{figure}[h]
         \includegraphics[width=1\textwidth]{Tekton.png}
-        \caption{Tekton Pro designed by David Siegel}
+        \caption{Tekton Pro designed by David Siegel\cite{tekton}}
         \label{fig:tekton}
     \end{figure}
     
     \begin{figure}[h]
         \includegraphics[width=1\textwidth]{Eaglefeather.png}
-        \caption{P22 Eaglefeather designed by David Siegel and Frank Lloyd Wright}
+        \caption{P22 Eaglefeather designed by David Siegel and Frank Lloyd Wright\cite{eaglefeather}}
         \label{fig:eaglefeather}
     \end{figure}
 
@@ -30,6 +30,11 @@ Utilising support from the scheme
             \includegraphics[width=1\textwidth]{ArchitectsFont.jpg}
             \caption{How to Architect Font designed by Doug Patt}
         \label{fig:architects}
+    \end{figure}
+    
+    \begin{figure}[h]
+    	\includegraphics[width=1\textwidth]{Ching.png}
+    	\caption{Exerpt from Architectural Graphics\cite{architecturalgraphics}}
     \end{figure}
 \pagebreak 
 \section{High-Level Requirements} % Describe the high level requirements for the project
@@ -54,4 +59,6 @@ As with all projects, there is a moderate level of risk. Namely this applies to 
 
 \section{High-Level Timeline \& Schedule} % List business processes or systems which will be impacted by this project and describe how they will be affected.
 
+\bibliography{bib.bib}
+\bibliographystyle{plain}
 \end{document}
